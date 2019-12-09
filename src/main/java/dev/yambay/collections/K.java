@@ -1,4 +1,4 @@
-package dev.yambay;
+package dev.yambay.collections;
 
 public class K {
 

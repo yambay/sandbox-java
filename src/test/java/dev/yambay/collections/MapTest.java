@@ -1,15 +1,14 @@
-package sandbox;
+package dev.yambay.collections;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import dev.yambay.K;
-import dev.yambay.V;
+import dev.yambay.collections.K;
+import dev.yambay.collections.V;
 
 class MapTest {
 
@@ -32,13 +31,4 @@ class MapTest {
 
 		assertEquals(3, map.size());
 	}
-
-	@Test
-	void testNPE() {
-		boolean flag = false;
-		Assertions.assertThrows(NullPointerException.class, () -> {
-			System.out.print(flag ? 42 : flag ? 42 : null);
-		});
-	}
-
 }
