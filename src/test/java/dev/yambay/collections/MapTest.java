@@ -26,9 +26,13 @@ class MapTest {
 
 		map.put(k1, v11);
 		map.put(k2, v21);
+		
+		// TODO assertEquals(???, map.size());
 
 		map.put(k1, v12);
 		map.put(new K(2), v22);
+		
+		// TODO assertEquals(???, map.size());
 
 	}
 }
